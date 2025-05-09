@@ -3,7 +3,8 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "7"
+    DISK_SIZE: "74G"
+      VERSION: "10l"
     devices:
       - /dev/kvm
       - /dev/net/tun
